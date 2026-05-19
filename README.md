@@ -42,6 +42,25 @@ To perform a study on Socket Programming
 
 Clients create a socket using socket() and connect to a server using connect().
 After establishing a connection, clients can send and receive data using send() and recv().
+1.socket():Creates a new socket for communication between devices over a network.
+
+2.bind():Associates the socket with a specific IP address and port number.
+
+3.listen(): Allows the server to wait and listen for incoming client connection requests.
+
+4.accept():Accepts the connection request from a client and establishes communication.
+
+5.connect():Used by the client to establish a connection with the server.
+
+6.send():Sends data or messages from one socket to another socket.
+
+7.recv():Receives data sent from another socket.
+
+8.close():Terminates the socket connection and releases resources.
+
+9.sendall():Ensures that all the data is completely transmitted through the socket.
+
+10.gethostname(): Returns the name of the computer or host system connected to the network.
 
 ## Use Cases of Socket Programming:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
